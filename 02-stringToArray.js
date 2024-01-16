@@ -12,7 +12,8 @@
 const exampleString = "I love technology";
 
 function stringToArray(string) {
-    console.log("complete com o código aqui! :)");
+    const converter = string.split (" ");
+    return converter;
 }
 
 stringToArray(exampleString);
