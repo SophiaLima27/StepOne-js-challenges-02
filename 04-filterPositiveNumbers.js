@@ -6,18 +6,15 @@
 // Exemplo:
 // [1, -2, 0, 5, 8, -3] -> [1, 0, 5, 8]
 
-const exampleArray = [23, 14, 5, 300, 2];
-
-function averageArray(array) {
-    let sum = 0;
-
-    for (const number of array) {
-        sum += number;
+function filterPositiveNumbers(array) {
+    let positiveNumbers = [];
+    for (let i=0; i=array.length; i++){
+        if (array [i] >= 0) {
+            positiveNumbers.push(array[i])
+        }
     }
-
-    return sum / exampleArray.length;
+    return positiveNumbers
 }
-
 
 filterPositiveNumbers([1, -2, 0, 5, 8, -3]);
 
