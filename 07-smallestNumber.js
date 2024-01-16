@@ -4,8 +4,17 @@
 const exampleArray = [-2, 0, 5, 9, 120, -60];
 
 function smallestNumber(array) {
-    console.log("complete com o código aqui! :)");
+    let smallestNumber = o;
+    for (let i=o; i<array.length; i++) {
+        if (smallestNumber < array[i]) {
+            smallestNumber = smallestNumber;
+        } else {
+            smallestNumber = array [i];
+        }
+    }
+    return smallestNumber
 }
+
 
 
 
