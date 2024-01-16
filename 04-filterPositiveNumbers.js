@@ -6,8 +6,16 @@
 // Exemplo:
 // [1, -2, 0, 5, 8, -3] -> [1, 0, 5, 8]
 
-function filterPositiveNumbers(array) {
-    console.log("complete com o código aqui! :)");
+const exampleArray = [23, 14, 5, 300, 2];
+
+function averageArray(array) {
+    let sum = 0;
+
+    for (const number of array) {
+        sum += number;
+    }
+
+    return sum / exampleArray.length;
 }
 
 
