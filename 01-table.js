@@ -18,8 +18,10 @@
 
 
 function table(number) {
-    console.log("complete com o código aqui! :)");
+    for (let i=1; i<=10; i++)
+    console.log (`${i} X ${number} = ${i * number}`) 
 }
+
 
 table(2);
 
