@@ -2,11 +2,20 @@
 // ou seja, do menor para o maior número.
 // Esse desafio foi dado em um code challenge para entrevista de emprego! :)
 
-let exampleArray = [573, 105, 13, 10, 52];
+const exampleArray = [-2, 0, 5, 9, 120, -60];
 
-function sort(array) {
-    console.log("complete com o código aqui! :)");
+function smallestNumber(array) {
+    let smallestNumber = o;
+    for (let i=o; i<array.length; i++) {
+        if (smallestNumber < array[i]) {
+            smallestNumber = smallestNumber;
+        } else {
+            smallestNumber = array [i];
+        }
+    }
+    return smallestNumber
 }
+
 
 
 
